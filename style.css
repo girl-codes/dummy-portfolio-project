@@ -85,7 +85,7 @@ p {
 .about-me {
   background: white;
 }
-.name {
+.heading {
   font-size: 96px;
 }
 .intro {
@@ -118,4 +118,28 @@ p {
 }
 .nav-link {
   cursor: pointer;
+}
+@media (max-width: 576px) {
+  .heading {
+    font-size: 60px;
+  }
+  .intro {
+    font-size: 40px;
+  }
+  .index-images {
+    display: none;
+  }
+  .weather {
+    margin-top: -50px;
+  }
+  .yogurt {
+    margin-bottom: -50px;
+  }
+
+  .yoga {
+    margin-top: -50px;
+  }
+  .about-me {
+    font-size: 16px;
+  }
 }
